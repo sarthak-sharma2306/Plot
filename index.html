@@ -35,7 +35,7 @@
         ,
         height = window.innerHeight - margin.top - margin.bottom; // Use the window's height
 
-    d3.csv("https://raw.githubusercontent.com/sarthak-sharma2306/Plot/master/data.csv", function (data) {
+    d3.csv("https://raw.githubusercontent.com/sarthak-sharma2306/Plot/master/rho_con.csv", function (data) {
         data.forEach(function (d) {
             d.iteration = +d.iteration;
             d.value = +d.value;
